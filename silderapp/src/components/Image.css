@@ -1,0 +1,38 @@
+.image-container {
+    position: relative;
+    height: 100vh; /* Adjust this height as needed */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.gallery {
+    position: relative;
+
+}
+
+.centered-image {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: auto; /* Center the image within its container */
+    border-radius: 10px;
+
+}
+
+.button-container {
+    position: fixed;
+    bottom: 325px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around; /* Space the buttons evenly */
+    width: calc(100% - 20px); /* Adjust to leave space on both sides */
+}
+
+/* Additional styling for buttons if necessary */
+
+/* Additional styling for buttons if necessary */
+body{
+    background-color: rgb(149, 145, 141);
+}
